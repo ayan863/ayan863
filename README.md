@@ -18,7 +18,7 @@
 └─$ id
 
   Role   →  Cybersecurity Specialist Enthusiast | BTJA
-  School →  Information Technologies, ASOIU
+  School →  Information Technologies, ASCCA
   Focus  →  Firewall Systems · Network Hardening
   Mode   →  [ OFFENSIVE RESEARCH → DEFENSIVE BUILD ]
 ```
