@@ -30,10 +30,6 @@
 <br/>
 
 <!-- <div> -->
-<table border="0" width="100%" cellspacing="0" cellpadding="8">
-<tr>
-<td width="50%" valign="top">
- 
 <pre>
 ┌──(ayan㉿sec-lab)-[~/projects/firewall]
 └─$ cat project.info
@@ -45,7 +41,7 @@
  
 </pre>
  
-<p align="center">
+<p>
 <img src="https://img.shields.io/badge/Network_Security-red?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0d1117"/>
@@ -54,30 +50,6 @@
 [![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/FIREWALL-Network-Manager-Project)
 </p>
  
-</td>
-<td width="50%" valign="top">
-<pre>
-┌──(ayan㉿sec-lab)-[~/projects/rf-jam]
-└─$ cat project.info
- 
-  Name    →  Wireless Jammer Research
-  Type    →  Hardware + RF Device
-  Domain  →  Wireless Security
-  Stack   →  C++ · SDR · RF Protocols
-
-</pre>
-<p>
-<img src="https://img.shields.io/badge/Wireless_Security-orange?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/SDR%2FRF-purple?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Hardware-557C94?style=flat-square&logo=kali-linux&logoColor=white&labelColor=0d1117"/>
- 
-[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/Jammer-Wireless-Security-Research-Devicesss)
-</p>
-
- 
-</td>
-</tr>
 </table>
 <!-- </div> -->
 
