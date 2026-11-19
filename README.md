@@ -1,89 +1,71 @@
-<p align="center">
-  <img src="./header.svg" width="100%" alt="Ayan Ismayilzade — Blue Team / SOC Analyst"/>
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/ayan-ismayilzade-2b04252b2/"><img src="https://img.shields.io/badge/LINKEDIN-05080F?style=for-the-badge&logo=linkedin&logoColor=00E5FF"/></a>
-  <a href="mailto:ayanismayilzade2006@gmail.com"><img src="https://img.shields.io/badge/SECURE_CHANNEL-05080F?style=for-the-badge&logo=protonmail&logoColor=00E5A0"/></a>
-  <a href="https://github.com/ayan863?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-05080F?style=for-the-badge&logo=github&logoColor=B388FF"/></a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&duration=1&pause=999999&color=00E5FF&center=true&vCenter=true&width=600&height=40&lines=Ayan+Ismayilzade" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1200&color=7FA7C9&center=true&vCenter=true&width=500&height=20&lines=%5B+establishing+secure+session...+%5D;Blue+Team+%C2%B7+SOC+Analyst;Detect+%C2%B7+Respond+%C2%B7+Harden" alt="Typing SVG" />
 
-### `ayan@soc:~$ show running-config | section identity`
+<br/>
 
-```diff
-# ─── firewall policy: ayan.local ───────────────────────────────
-+ ALLOW   role        → Blue Team · Junior SOC Analyst
-+ ALLOW   cert        → Security Blue Team · BTJA
-+ ALLOW   training    → Div Academy Blue Team — Honour Diploma
-+ ALLOW   education   → Information Technology @ ASCCA (4th year)
-+ ALLOW   focus       → detection engineering · firewall systems · hardening
-+ ALLOW   path        → web developer  ──►  defender
-- DENY    default-creds     any → any
-- DENY    unpatched-systems any → any
-- DENY    alert-fatigue     any → any
-# ─── implicit deny all ─────────────────────────────────────────
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0D1117?style=flat-square&logo=linkedin&logoColor=00E5FF)](https://www.linkedin.com/in/ayan-ismayilzade-2b04252b2/)
+[![GitHub](https://img.shields.io/badge/GitHub-0D1117?style=flat-square&logo=github&logoColor=00E5FF)](https://github.com/ayan863)
+[![Email](https://img.shields.io/badge/Email-0D1117?style=flat-square&logo=gmail&logoColor=00E5FF)](mailto:ayanismayilzade2006@gmail.com)
+
+</div>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=999999&color=00E5FF&width=435&lines=%3E+whoami+--verbose" />
+
+```
+╭─ ayan@soc-01 ~/profile
+╰─➤ whoami --verbose
+
+   role        ::  Blue Team · SOC Analyst
+   cert        ::  Security Blue Team — BTJA
+   training    ::  Div Academy Blue Team (Honour Diploma)
+   school      ::  Information Technology, ASCCA
+   focus       ::  Detection · Incident Response · Firewall Systems
+   status      ::  [ ONLINE · OPEN TO OPPORTUNITIES ]
 ```
 
-### `ayan@soc:~$ tail -f /var/log/ayan/alerts.log`
+---
 
-| SEV | TIMESTAMP | RULE | EVENT |
-|:---:|:---|:---|:---|
-| 🟢 | `now` | `LEARN-01` | Studying **CCNA — Introduction to Networks** |
-| 🔵 | `now` | `BUILD-07` | Shipping new features to **FIREWALL Network Manager** |
-| 🟣 | `ongoing` | `HUNT-03` | Practising threat hunting with **Wazuh** & **Splunk** labs |
-| 🟡 | `open` | `JOB-404` | Searching for a **first SOC / Blue Team role** — let's talk |
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=999999&color=00E5FF&width=435&lines=%3E+ls+-la+~%2Fcase-files" />
 
-### `ayan@soc:~$ ls ./case-files`
+<pre>
+╭─ ayan@soc-01 ~/case-files/firewall
+╰─➤ cat case.log
 
-<table>
-<tr>
-<td width="50%" valign="top">
+   name        ::  FIREWALL Network Manager
+   type        ::  Desktop App + Web Panel
+   features    ::  ICMP flood detection · timed rules · RBAC
+   stack       ::  Python · Bash · Linux
+</pre>
 
-**`CASE #001` · FIREWALL Network Manager**
+[![Open Case](https://img.shields.io/badge/▸_OPEN_CASE-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF)](https://github.com/ayan863/FIREWALL-Network-Manager-Project)
 
-Desktop app + web panel for managing host firewall rules on Linux.
+<pre>
+╭─ ayan@soc-01 ~/case-files/viva-la-pizza
+╰─➤ cat case.log
 
-- 🛡️ ICMP flood detection
-- ⏱️ Time-scheduled rules
-- 👥 Role-based access control (RBAC)
+   name        ::  Viva La Pizza — Online Pizza Ordering
+   type        ::  Web App + Admin Panel
+   live        ::  <a href="https://vivalapizza.netlify.app/">vivalapizza.netlify.app</a>
+   stack       ::  Next.js · SCSS
+</pre>
 
-`Python` `Bash` `Linux` `Network Security`
+[![Open Case](https://img.shields.io/badge/▸_OPEN_CASE-0D1117?style=for-the-badge&logo=github&logoColor=00E5FF)](https://github.com/ayan863/viva-la-pizza)
 
-<a href="https://github.com/ayan863/FIREWALL-Network-Manager-Project"><img src="https://img.shields.io/badge/OPEN_CASE_→-0A1220?style=for-the-badge&logo=github&logoColor=00E5FF"/></a>
+---
 
-</td>
-<td width="50%" valign="top">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=999999&color=00E5FF&width=435&lines=%3E+cat+%2Fetc%2Farsenal.conf" />
 
-**`CASE #002` · Viva La Pizza**
-
-Online pizza ordering web app with an admin panel — my full-stack roots.
-
-- 🍕 Menu & ordering flow
-- 🧑‍💼 Admin panel
-- 🚀 Live on Netlify
-
-`Next.js` `SCSS` `Web`
-
-<a href="https://github.com/ayan863/viva-la-pizza"><img src="https://img.shields.io/badge/OPEN_CASE_→-0A1220?style=for-the-badge&logo=github&logoColor=FFC857"/></a>
-<a href="https://vivalapizza.netlify.app/"><img src="https://img.shields.io/badge/LIVE_→-0A1220?style=for-the-badge&logo=netlify&logoColor=00E5A0"/></a>
-
-</td>
-</tr>
-</table>
-
-### `ayan@soc:~$ lsmod | grep defense`
-
-<p align="center">
-  <img src="./arsenal.svg" width="100%" alt="Arsenal: SIEM/Detection, Network Defense, Identity/Cloud, Build/Code"/>
-</p>
-
-### `ayan@soc:~$ cat /proc/telemetry`
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ayan863&show_icons=true&hide_border=true&bg_color=05080F&title_color=00E5FF&icon_color=00E5A0&text_color=C9DCEB&custom_title=Sensor%20Telemetry"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayan863&layout=compact&hide_border=true&bg_color=05080F&title_color=00E5FF&text_color=C9DCEB&custom_title=Payload%20Languages"/>
-</p>
-
-<p align="center">
-  <img src="./footer.svg" width="100%" alt="session closed"/>
+<p>
+  <img src="https://img.shields.io/badge/Wazuh-0D1117?style=for-the-badge&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Splunk-0D1117?style=for-the-badge&logo=splunk&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Palo_Alto-0D1117?style=for-the-badge&logo=paloaltonetworks&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/FortiGate-0D1117?style=for-the-badge&logo=fortinet&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Wireshark-0D1117?style=for-the-badge&logo=wireshark&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Kali_Linux-0D1117?style=for-the-badge&logo=kalilinux&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Python-0D1117?style=for-the-badge&logo=python&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Bash-0D1117?style=for-the-badge&logo=gnubash&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/C++-0D1117?style=for-the-badge&logo=cplusplus&logoColor=00E5FF"/>
+  <img src="https://img.shields.io/badge/Linux-0D1117?style=for-the-badge&logo=linux&logoColor=00E5FF"/>
 </p>
