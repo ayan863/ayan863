@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="270" viewBox="0 0 900 270" role="img" aria-label="Ayan Ismayilzade — Blue Team / SOC Analyst">
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#00E5FF" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.2" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00E5FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="900" height="270" rx="14"/></clipPath>
+    <clipPath id="type">
+      <rect x="300" y="150" width="0" height="30">
+        <animate attributeName="width" from="0" to="560" dur="2.6s" begin="0.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" keyTimes="0;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="270" fill="#05080F"/>
+    <rect width="900" height="270" fill="url(#grid)"/>
+    <rect width="900" height="270" fill="url(#glow)"/>
+
+    <!-- top bar -->
+    <rect width="900" height="28" fill="#0A1220"/>
+    <circle cx="18" cy="14" r="4" fill="#FF3B6B"/>
+    <circle cx="32" cy="14" r="4" fill="#FFC857"/>
+    <circle cx="46" cy="14" r="4" fill="#00E5A0"/>
+    <text x="450" y="18" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="11" fill="#5C7A99" letter-spacing="1">soc-console :: sensor-01 :: session encrypted (TLS 1.3)</text>
+
+    <!-- radar -->
+    <g transform="translate(150 148)">
+      <circle r="92" fill="none" stroke="#00E5FF" stroke-opacity="0.35"/>
+      <circle r="64" fill="none" stroke="#00E5FF" stroke-opacity="0.22"/>
+      <circle r="36" fill="none" stroke="#00E5FF" stroke-opacity="0.18"/>
+      <line x1="-92" y1="0" x2="92" y2="0" stroke="#00E5FF" stroke-opacity="0.15"/>
+      <line x1="0" y1="-92" x2="0" y2="92" stroke="#00E5FF" stroke-opacity="0.15"/>
+      <g>
+        <path d="M0 0 L92 0 A92 92 0 0 0 65 -65 Z" fill="url(#sweep)"/>
+        <line x1="0" y1="0" x2="92" y2="0" stroke="#00E5FF" stroke-width="1.5"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+      </g>
+      <!-- blips: green = benign, red = flagged -->
+      <circle cx="40" cy="-30" r="3.5" fill="#00E5A0">
+        <animate attributeName="opacity" values="0;1;0.2;0" dur="4s" begin="0.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="-52" cy="22" r="3.5" fill="#00E5A0">
+        <animate attributeName="opacity" values="0;1;0.2;0" dur="4s" begin="2.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="18" cy="58" r="4" fill="#FF3B6B">
+        <animate attributeName="opacity" values="0;1;0.3;0" dur="4s" begin="1.1s" repeatCount="indefinite"/>
+        <animate attributeName="r" values="3;7;3" dur="4s" begin="1.1s" repeatCount="indefinite"/>
+      </circle>
+      <circle r="3" fill="#00E5FF"/>
+    </g>
+
+    <!-- name with glitch -->
+    <g font-family="Consolas, 'Courier New', monospace" font-weight="700" font-size="46" letter-spacing="3">
+      <text x="300" y="112" fill="#FF3B6B" opacity="0.7">AYAN ISMAYILZADE
+        <animate attributeName="x" values="300;300;303;297;300;300" keyTimes="0;0.9;0.92;0.94;0.96;1" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="300" y="112" fill="#00E5FF" opacity="0.7">AYAN ISMAYILZADE
+        <animate attributeName="x" values="300;300;297;303;300;300" keyTimes="0;0.9;0.92;0.94;0.96;1" dur="5s" repeatCount="indefinite"/>
+      </text>
+      <text x="300" y="112" fill="#E6F7FF">AYAN ISMAYILZADE</text>
+    </g>
+
+    <!-- typed role line -->
+    <g clip-path="url(#type)">
+      <text x="300" y="170" font-family="Consolas, 'Courier New', monospace" font-size="17" fill="#00E5FF" letter-spacing="1">&gt; BLUE TEAM · SOC ANALYST · NETWORK DEFENSE<tspan fill="#00E5FF"> █<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    </g>
+
+    <!-- status line -->
+    <g font-family="Consolas, 'Courier New', monospace" font-size="12" letter-spacing="1">
+      <circle cx="306" cy="216" r="4" fill="#00E5A0">
+        <animate attributeName="opacity" values="1;0.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="318" y="220" fill="#00E5A0">SENSOR ONLINE</text>
+      <text x="440" y="220" fill="#5C7A99">RULES LOADED: <tspan fill="#E6F7FF">1337</tspan></text>
+      <text x="610" y="220" fill="#5C7A99">THREAT LEVEL:</text>
+      <rect x="728" y="210" width="12" height="11" fill="#00E5A0"/>
+      <rect x="743" y="210" width="12" height="11" fill="#00E5A0"/>
+      <rect x="758" y="210" width="12" height="11" fill="#1A2638"/>
+      <rect x="773" y="210" width="12" height="11" fill="#1A2638"/>
+      <rect x="788" y="210" width="12" height="11" fill="#1A2638"/>
+      <text x="808" y="220" fill="#00E5A0">LOW</text>
+    </g>
+
+    <!-- moving scanline -->
+    <rect x="0" y="-60" width="900" height="60" fill="url(#scan)">
+      <animate attributeName="y" from="-60" to="270" dur="6s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="269" rx="14" fill="none" stroke="#00E5FF" stroke-opacity="0.35"/>
+</svg>

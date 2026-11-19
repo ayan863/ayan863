@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="60" viewBox="0 0 900 60" role="img" aria-label="Session closed">
+  <rect x="0.5" y="0.5" width="899" height="59" rx="10" fill="#05080F" stroke="#00E5FF" stroke-opacity="0.25"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="13" letter-spacing="1">
+    <text x="24" y="35" fill="#5C7A99">[<tspan fill="#00E5A0">OK</tspan>] logs shipped  ·  [<tspan fill="#00E5A0">OK</tspan>] perimeter sealed  ·  <tspan fill="#00E5FF">ayan@soc:~$ exit</tspan><tspan fill="#00E5FF"> █<animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></tspan></text>
+    <text x="876" y="35" fill="#5C7A99" text-anchor="end">stay patched.</text>
+  </g>
+</svg>

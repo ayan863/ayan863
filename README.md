@@ -1,78 +1,89 @@
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=32&color=00FF41&center=true&vCenter=true&width=600&height=30&repeat=false&pause=1000&lines=Ayan+Ismayilzade" />
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=14&pause=1000&color=00FF41&center=true&vCenter=true&width=500&height=15&lines=%5B+Initializing+secure+connection...+%5D;Cybersecurity+Enthusiast;Network+%26+Security" alt="Typing SVG" />
-
-<br/>
-
-[![LinkedIn](https://img.shields.io/badge/-%20LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayan-ismayilzade-2b04252b2/)
-[![GitHub](https://img.shields.io/badge/-%20GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/ayan863)
-[![Email](https://img.shields.io/badge/-%20Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:ayanismayilzade2006@gmail.com)
-</div>
-
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=1&pause=999999&color=00FF41&width=435&lines=%24+cat+%2Fetc%2Fpasswd+%7C+grep+ayan" />
-
-```
-┌──(ayan㉿sec-lab)-[~]
-└─$ id
-
-  Role   →  Cybersecurity Specialist Enthusiast | BTJA
-  School →  Information Technologies, ASCCA
-  Focus  →  Firewall Systems · Network Hardening
-  Mode   →  [ OFFENSIVE RESEARCH → DEFENSIVE BUILD ]
-```
-
----
-
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=1&pause=999999&color=00FF41&width=435&lines=%24+ls+%7E%2Fprojects+--detail" />
-
-<br/>
-
-<!-- <div> -->
-<pre>
-┌──(ayan㉿sec-lab)-[~/projects/viva-la-pizza]
-└─$ cat viva-la-pizza.info
- 
-  Name    →  Online Pizza Ordering Web App
-  Type    →  Web + Admin panel
-  Domain  →  [Network Security](http://vivalapizza.netlify.app/)
-  Stack   →  Next.js · Scss
- 
-</pre>
-[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/viva-la-pizza)
- <pre>
-┌──(ayan㉿sec-lab)-[~/projects/firewall]
-└─$ cat project.info
- 
-  Name    →  FIREWALL Network Manager
-  Type    →  Desktop App + Web Panel
-  Domain  →  Network Security
-  Stack   →  Python · Bash · Linux
- 
-</pre>
-[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/FIREWALL-Network-Manager-Project)
-<p>
-<img src="https://img.shields.io/badge/Network_Security-red?style=flat-square&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0d1117"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=0d1117"/>
- 
-
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Ayan Ismayilzade — Blue Team / SOC Analyst"/>
 </p>
- 
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/ayan-ismayilzade-2b04252b2/"><img src="https://img.shields.io/badge/LINKEDIN-05080F?style=for-the-badge&logo=linkedin&logoColor=00E5FF"/></a>
+  <a href="mailto:ayanismayilzade2006@gmail.com"><img src="https://img.shields.io/badge/SECURE_CHANNEL-05080F?style=for-the-badge&logo=protonmail&logoColor=00E5A0"/></a>
+  <a href="https://github.com/ayan863?tab=repositories"><img src="https://img.shields.io/badge/REPOSITORIES-05080F?style=for-the-badge&logo=github&logoColor=B388FF"/></a>
+</p>
+
+### `ayan@soc:~$ show running-config | section identity`
+
+```diff
+# ─── firewall policy: ayan.local ───────────────────────────────
++ ALLOW   role        → Blue Team · Junior SOC Analyst
++ ALLOW   cert        → Security Blue Team · BTJA
++ ALLOW   training    → Div Academy Blue Team — Honour Diploma
++ ALLOW   education   → Information Technology @ ASCCA (4th year)
++ ALLOW   focus       → detection engineering · firewall systems · hardening
++ ALLOW   path        → web developer  ──►  defender
+- DENY    default-creds     any → any
+- DENY    unpatched-systems any → any
+- DENY    alert-fatigue     any → any
+# ─── implicit deny all ─────────────────────────────────────────
+```
+
+### `ayan@soc:~$ tail -f /var/log/ayan/alerts.log`
+
+| SEV | TIMESTAMP | RULE | EVENT |
+|:---:|:---|:---|:---|
+| 🟢 | `now` | `LEARN-01` | Studying **CCNA — Introduction to Networks** |
+| 🔵 | `now` | `BUILD-07` | Shipping new features to **FIREWALL Network Manager** |
+| 🟣 | `ongoing` | `HUNT-03` | Practising threat hunting with **Wazuh** & **Splunk** labs |
+| 🟡 | `open` | `JOB-404` | Searching for a **first SOC / Blue Team role** — let's talk |
+
+### `ayan@soc:~$ ls ./case-files`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**`CASE #001` · FIREWALL Network Manager**
+
+Desktop app + web panel for managing host firewall rules on Linux.
+
+- 🛡️ ICMP flood detection
+- ⏱️ Time-scheduled rules
+- 👥 Role-based access control (RBAC)
+
+`Python` `Bash` `Linux` `Network Security`
+
+<a href="https://github.com/ayan863/FIREWALL-Network-Manager-Project"><img src="https://img.shields.io/badge/OPEN_CASE_→-0A1220?style=for-the-badge&logo=github&logoColor=00E5FF"/></a>
+
+</td>
+<td width="50%" valign="top">
+
+**`CASE #002` · Viva La Pizza**
+
+Online pizza ordering web app with an admin panel — my full-stack roots.
+
+- 🍕 Menu & ordering flow
+- 🧑‍💼 Admin panel
+- 🚀 Live on Netlify
+
+`Next.js` `SCSS` `Web`
+
+<a href="https://github.com/ayan863/viva-la-pizza"><img src="https://img.shields.io/badge/OPEN_CASE_→-0A1220?style=for-the-badge&logo=github&logoColor=FFC857"/></a>
+<a href="https://vivalapizza.netlify.app/"><img src="https://img.shields.io/badge/LIVE_→-0A1220?style=for-the-badge&logo=netlify&logoColor=00E5A0"/></a>
+
+</td>
+</tr>
 </table>
-<!-- </div> -->
 
----
+### `ayan@soc:~$ lsmod | grep defense`
 
-<img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=16&duration=1&pause=999999&color=00FF41&width=435&lines=%24+nmap+--skills+ayan.local" />
+<p align="center">
+  <img src="./arsenal.svg" width="100%" alt="Arsenal: SIEM/Detection, Network Defense, Identity/Cloud, Build/Code"/>
+</p>
 
-<p>
-  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kali-linux&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+### `ayan@soc:~$ cat /proc/telemetry`
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=ayan863&show_icons=true&hide_border=true&bg_color=05080F&title_color=00E5FF&icon_color=00E5A0&text_color=C9DCEB&custom_title=Sensor%20Telemetry"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ayan863&layout=compact&hide_border=true&bg_color=05080F&title_color=00E5FF&text_color=C9DCEB&custom_title=Payload%20Languages"/>
+</p>
+
+<p align="center">
+  <img src="./footer.svg" width="100%" alt="session closed"/>
 </p>

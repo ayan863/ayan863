@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="Arsenal: SIEM and detection, network defense, identity and cloud, build stack">
+  <style>
+    .t  { font-family: Consolas, 'Courier New', monospace; }
+    .h  { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; }
+    .i  { font-size: 14px; fill: #C9DCEB; }
+    .m  { font-size: 11px; fill: #5C7A99; letter-spacing: 1px; }
+  </style>
+  <rect x="0.5" y="0.5" width="899" height="299" rx="14" fill="#05080F" stroke="#00E5FF" stroke-opacity="0.35"/>
+  <text x="24" y="34" class="t h" fill="#00E5FF">ARSENAL</text>
+  <text x="112" y="34" class="t m">// modules loaded into the defense stack</text>
+  <text x="876" y="34" class="t m" text-anchor="end">4/4 ACTIVE</text>
+  <line x1="24" y1="48" x2="876" y2="48" stroke="#00E5FF" stroke-opacity="0.2"/>
+
+  <!-- column template: x offsets 24, 240, 456, 672 ; width 204 -->
+  <g class="t">
+    <!-- 1 -->
+    <rect x="24" y="64" width="204" height="212" rx="8" fill="#0A1220" stroke="#00E5FF" stroke-opacity="0.18"/>
+    <rect x="24" y="64" width="4" height="212" rx="2" fill="#00E5FF"/>
+    <text x="42" y="90" class="h" fill="#00E5FF">SIEM / DETECT</text>
+    <text x="42" y="124" class="i">▸ Wazuh</text>
+    <text x="42" y="152" class="i">▸ Splunk</text>
+    <text x="42" y="180" class="i">▸ MITRE ATT&amp;CK</text>
+    <text x="42" y="208" class="i">▸ Threat Hunting</text>
+    <text x="42" y="236" class="i">▸ Forensics / IR</text>
+
+    <!-- 2 -->
+    <rect x="240" y="64" width="204" height="212" rx="8" fill="#0A1220" stroke="#00E5A0" stroke-opacity="0.18"/>
+    <rect x="240" y="64" width="4" height="212" rx="2" fill="#00E5A0"/>
+    <text x="258" y="90" class="h" fill="#00E5A0">NETWORK DEFENSE</text>
+    <text x="258" y="124" class="i">▸ Palo Alto NGFW</text>
+    <text x="258" y="152" class="i">▸ FortiGate</text>
+    <text x="258" y="180" class="i">▸ Wireshark</text>
+    <text x="258" y="208" class="i">▸ Cisco / CCNA</text>
+    <text x="258" y="236" class="i">▸ iptables</text>
+
+    <!-- 3 -->
+    <rect x="456" y="64" width="204" height="212" rx="8" fill="#0A1220" stroke="#B388FF" stroke-opacity="0.18"/>
+    <rect x="456" y="64" width="4" height="212" rx="2" fill="#B388FF"/>
+    <text x="474" y="90" class="h" fill="#B388FF">IDENTITY / CLOUD</text>
+    <text x="474" y="124" class="i">▸ Active Directory</text>
+    <text x="474" y="152" class="i">▸ Group Policy</text>
+    <text x="474" y="180" class="i">▸ Microsoft Azure</text>
+    <text x="474" y="208" class="i">▸ Fudo PAM</text>
+    <text x="474" y="236" class="i">▸ RBAC design</text>
+
+    <!-- 4 -->
+    <rect x="672" y="64" width="204" height="212" rx="8" fill="#0A1220" stroke="#FFC857" stroke-opacity="0.18"/>
+    <rect x="672" y="64" width="4" height="212" rx="2" fill="#FFC857"/>
+    <text x="690" y="90" class="h" fill="#FFC857">BUILD / CODE</text>
+    <text x="690" y="124" class="i">▸ Python</text>
+    <text x="690" y="152" class="i">▸ Bash / Linux</text>
+    <text x="690" y="180" class="i">▸ C++</text>
+    <text x="690" y="208" class="i">▸ Next.js / React</text>
+    <text x="690" y="236" class="i">▸ SCSS</text>
+  </g>
+
+  <!-- status dots -->
+  <g>
+    <circle cx="214" cy="86" r="4" fill="#00E5FF"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="430" cy="86" r="4" fill="#00E5A0"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="0.45s" repeatCount="indefinite"/></circle>
+    <circle cx="646" cy="86" r="4" fill="#B388FF"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <circle cx="862" cy="86" r="4" fill="#FFC857"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" begin="1.35s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
