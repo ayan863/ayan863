@@ -31,6 +31,17 @@
 
 <!-- <div> -->
 <pre>
+┌──(ayan㉿sec-lab)-[~/projects/viva-la-pizza]
+└─$ cat viva-la-pizza.info
+ 
+  Name    →  Online Pizza Ordering Web App
+  Type    →  Web + Admin panel
+  Domain  →  [Network Security](http://vivalapizza.netlify.app/)
+  Stack   →  Next.js · Scss
+ 
+</pre>
+[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/viva-la-pizza)
+ <pre>
 ┌──(ayan㉿sec-lab)-[~/projects/firewall]
 └─$ cat project.info
  
@@ -40,14 +51,14 @@
   Stack   →  Python · Bash · Linux
  
 </pre>
- 
+[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/FIREWALL-Network-Manager-Project)
 <p>
 <img src="https://img.shields.io/badge/Network_Security-red?style=flat-square&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0d1117"/>
 <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnu-bash&logoColor=white&labelColor=0d1117"/>
  
-[![View Project](https://img.shields.io/badge/⇒_VIEW_REPO-0d1117?style=for-the-badge&logo=github)](https://github.com/ayan863/FIREWALL-Network-Manager-Project)
+
 </p>
  
 </table>
